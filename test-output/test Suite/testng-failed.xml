@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test Suite]">
+  <test name="testing(failed)">
+    <classes>
+      <class name="com.optumrx.irisuiuxqe.ordercreation.OrderCreationTest">
+        <methods>
+          <include name="createConnections"/>
+          <include name="oc_RefilRx_01"/>
+          <include name="oc_login_00"/>
+          <include name="oc_RefilRx_02"/>
+        </methods>
+      </class> <!-- com.optumrx.irisuiuxqe.ordercreation.OrderCreationTest -->
+    </classes>
+  </test> <!-- testing(failed) -->
+</suite> <!-- Failed suite [test Suite] -->

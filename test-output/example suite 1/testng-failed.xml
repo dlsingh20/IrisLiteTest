@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [example suite 1]">
+  <test name="Regression suite 1(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.optumrx.irisuiuxqe.ordercreation.OrderCreationTest">
+        <methods>
+          <include name="oc_RefilRx_01"/>
+          <include name="oc_RefilRx_02"/>
+        </methods>
+      </class> <!-- com.optumrx.irisuiuxqe.ordercreation.OrderCreationTest -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

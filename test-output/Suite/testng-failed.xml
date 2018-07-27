@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="IE"/>
+  <listeners>
+    <listener class-name="com.optumrx.irisuiuxqe.util.RetryListener"/>
+  </listeners>
+  <test name="InternetExplorerTest">
+    <parameter name="browser" value="IE"/>
+    <groups>
+      <run>
+        <include name="debug"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.optumrx.irisuiuxqe.tests.OrderCreationTest"/>
+    </classes>
+  </test> <!-- InternetExplorerTest -->
+  <test name="InternetExplorerTest(failed)">
+    <parameter name="browser" value="IE"/>
+    <groups>
+      <run>
+        <include name="debug"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.optumrx.irisuiuxqe.tests.OrderCreationTest">
+        <methods>
+          <include name="closeConnections"/>
+          <include name="oc_login_00"/>
+          <include name="logout"/>
+          <include name="TC512828_verifySalesOrderLandingPageComingFromWorkAreaSelectionPage" invocation-numbers="0 0 0"/>
+          <include name="createConnections"/>
+        </methods>
+      </class> <!-- com.optumrx.irisuiuxqe.tests.OrderCreationTest -->
+    </classes>
+  </test> <!-- InternetExplorerTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

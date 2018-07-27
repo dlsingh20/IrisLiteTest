@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.optumrx.irisuiuxqe.tests.OrderCreationTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.optumrx.irisuiuxqe.tests.OrderCreationTest">
+        <methods>
+          <include name="TC462538_verifyAllElementsOnWorkAreaSelectionPage"/>
+          <include name="TC494177_verifyAccountSummarysectionavailabilityonSalesOrderPage"/>
+          <include name="TC448499_verifyLoginScreenTitle"/>
+          <include name="TC471483_verifyThatOnlyNumericDataIsAcceptedAsAccountNumber"/>
+          <include name="TC494168_verifySequenceFfTextToBeDisplayedInPatientSummarySectionOnSalesOrderPage"/>
+          <include name="TC494172_verifysequenceofColumntobedisplayedinOrderDetailsSectionOnSalesOrderPage"/>
+          <include name="TC512828_verifySalesOrderLandingPageComingFromWorkAreaSelectionPage"/>
+          <include name="TC494169_verifyOrderDetailsSectionavailabilityonSalesOrderPage"/>
+          <include name="TC448562_verifyADGroupAuthorization"/>
+          <include name="TC494163_verifyOrderSummarySectionavailabilityonSalesOrderPage"/>
+          <include name="TC494179_verifyAllButtonsavailabilityatthebottomRightonSalesOrderPage"/>
+          <include name="TC448517_verifyCopyPasteDisabled"/>
+          <include name="TC471380_verifyFirstNameAndLastNameRequiredOnMemberSearchPage"/>
+          <include name="TC494183_verifyAvailableoptionsunderHoldsectiononSalesOrderPage"/>
+          <include name="TC462442_verifyWorkAreaSelectionPage"/>
+          <include name="TC467694_verifyShiftTab"/>
+          <include name="TC494181_verifyHoldsectionavailabilityonSalesOrderPage"/>
+          <include name="TC467691_verifySearchButtonHotKey"/>
+          <include name="TC494166_verifyPatientSummarySectionavailabilityonSalesOrderPage"/>
+          <include name="TC448493_verifyLoginScreen"/>
+          <include name="createConnections"/>
+          <include name="TC494187_verifyTasksectionavailabilityonSalesOrderPage"/>
+          <include name="TC448557_verifyInvalidUsernamePassword"/>
+          <include name="TC467681_verifyResetButtonHotKey"/>
+          <include name="TC462557_verifyClearCurrentSelectionUsingRestButton"/>
+          <include name="TC494192_verifyAvailableoptionsunderPaymentsectiononSalesOrderPage"/>
+          <include name="TC467679_verifyTabSequence"/>
+          <include name="TC494174_verifyNotesSectionavailabilityonSalesOrderPage"/>
+          <include name="TC448558_verifyLoginWithValidUsernamePassword"/>
+          <include name="TC494165_verifySequenceOfTextToBeDisplayedInOrderSummarySectionOnSalesOrderPage"/>
+          <include name="TC494186_verifyAvailableOptionsUnderPatientHistorysectiononSalesOrderPage"/>
+          <include name="TC494176_verifyMycommentstextboxavailabilitybelownotessectiononSalesOrderPage"/>
+          <include name="TC462561_verifySaveAsPresetClickSearch"/>
+          <include name="TC480151_verifyGlobalBannerOnWorkAreaSelectionPage"/>
+          <include name="TC484954_verifyFunctionalityOfBannerOnWorkAreaSelectionPage"/>
+          <include name="closeConnections"/>
+          <include name="TC462572_verifyResetButtonClearUserPreset"/>
+          <include name="TC448511_verifyPresenceOfPlaceholders"/>
+          <include name="TC448556_verifyValidUsernameBlankPassword"/>
+          <include name="TC494189_verifyAvailableoptionsunderTasksectiononSalesOrderPage"/>
+          <include name="TC462564_verifySearchButtonDisable"/>
+          <include name="TC494184_verifyPatientHistorysectionavailabilityonSalesOrderPage"/>
+          <include name="TC494162_verifyBennerAvailabilityonSalesOrderPage"/>
+          <include name="TC448560_verifyResultAfterRefresh"/>
+          <include name="TC448500_verifyPasswordEncyptedFormat"/>
+          <include name="TC448501_verifySpellingGrammar"/>
+          <include name="TC494190_verifyPaymentsectionavailabilityonSalesOrderPage"/>
+        </methods>
+      </class> <!-- com.optumrx.irisuiuxqe.tests.OrderCreationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

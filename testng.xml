@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <suite name="example suite 1" verbose="1" thread-count="2" parallel="tests" > To Run test case parallel -->
+	<listeners>
+        <listener class-name="com.optumrx.irisuiuxqe.util.RetryListener"/>
+  </listeners>
+  <test name="InternetExplorerTest">
+	<parameter name="browser" value="IE">
+		<groups>
+			<run>
+			<include name="debug" />
+				
+				<!-- <include name="debug Regression WorkAreaSelectionPage" /> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.optumrx.irisuiuxqe.tests.OrderCreationTest" />
+		</classes>
+		</parameter>
+	</test> <!-- Test -->
+	<!-- <test name="FirefoxTest">
+	<parameter name="browser" value="FF">
+		<groups>
+			<run>
+				<include name="Regression" />
+				<include name="debug Regression WorkAreaSelectionPage" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.optumrx.irisuiuxqe.tests.OrderCreationTest" />
+		</classes>
+		</parameter>
+	</test> Test -->
+	
+</suite> <!-- Suite -->
